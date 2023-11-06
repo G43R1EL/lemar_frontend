@@ -1,0 +1,32 @@
+.vw_header {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.vw_header_logo {
+    flex-basis: 20%;
+}
+
+.vw_header_title {
+    flex-basis: 60%;
+}
+
+.vw_header_info {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.vw_header_info fieldset {
+    align-items: flex-start;
+    border: none;
+    display: flex;
+    gap: .5rem;
+}
+
+.col {
+    flex-direction: column;
+}
